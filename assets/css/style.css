@@ -1,0 +1,290 @@
+/*common css start*/
+
+@import url('https://fonts.googleapis.com/css2?family=Cardo&family=Open+Sans&family=Raleway&display=swap');
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Raleway', sans-serif !important;
+}
+
+.n {
+    padding-top: 150px !important;
+}
+
+
+/*common css end*/
+
+
+/*header start*/
+
+
+/*nav start*/
+
+.b-b {
+    border-bottom: 2px solid white;
+}
+
+.nav-section {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    padding: 0px 20px;
+    font-family: raleway, sans-serif;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: steelblue;
+}
+
+.border-bottom {
+    border-bottom: 2px solid rgba(255, 255, 255, .5) !important;
+}
+
+.scrolled {
+    background: #3a3e64;
+    transition: 2s;
+}
+
+
+/*nav end*/
+
+
+/*header content start*/
+
+.header-content h1 {
+    font-size: 73px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.header-content p {
+    color: white;
+    font-size: 24px;
+}
+
+.header-content button {
+    margin-top: 80px !important;
+    background: #e84545;
+    margin-bottom: 150px !important;
+}
+
+.header-content button:hover {
+    background-color: black;
+}
+
+.header-content {
+    padding-top: 150px !important;
+    background: url(../images/background-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*header content end*/
+
+
+/*header end*/
+
+
+/*our services start*/
+
+.our-services i {
+    color: #e95050;
+}
+
+
+/*our services end*/
+
+
+/*gallery start*/
+
+.gallery .row {
+    --bs-gutter-x: 4px;
+    --bs-gutter-y: 4px;
+}
+
+.gallery-photo {
+    position: relative;
+    text-decoration: none;
+    color: black;
+}
+
+.gallery .img-fluid a img {
+    max-width: 100%;
+}
+
+.gallery-photo .absolute {
+    position: absolute;
+    background: rgba(255, 0, 0, .5);
+    width: 100%;
+    height: 100%;
+    top: -100%;
+    left: 0px;
+    text-align: center;
+    padding: 70px 0px;
+    color: white;
+    transition: .5s;
+    visibility: hidden;
+}
+
+.gallery-photo a:hover .absolute {
+    top: 0px;
+    visibility: visible;
+}
+
+
+/*gallery end*/
+
+
+/*our team start*/
+
+.our-team img {
+    width: 100%;
+}
+
+.our-team h5 {
+    font-size: 16px;
+}
+
+.our-team a i {
+    border: 1px solid #d2d2d2;
+    padding: 12px;
+    color: #c6cacc;
+    transition: .5;
+}
+
+.our-team a i.fa-facebook-f {
+    border: 1px solid #d2d2d2;
+    padding: 12px 16px;
+    color: #c6cacc;
+    transition: .5;
+}
+
+.our-team a i.fa-linkedin {
+    border: 1px solid #d2d2d2;
+    padding: 12px 16px;
+    color: #c6cacc;
+    transition: .5;
+}
+
+.our-team a i:hover {
+    color: dodgerblue;
+}
+
+
+/*our team end*/
+
+
+/*testimonial start*/
+
+.testimonial.container-fluid {
+    padding-left: 0px;
+    /* padding-right: 5px; */
+}
+
+.bg-color {
+    background: #53354a;
+}
+
+.testimonial .img-fluid {
+    /* width: 100%;
+    height: 100% !important; */
+}
+
+.carasol h3.font {
+    font-family: 'Cardo', serif !important;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+
+/*testimonial end*/
+
+
+/*download section start*/
+
+.download button {
+    background: #e95050;
+}
+
+.download h3 {
+    font-size: 40px;
+    margin-bottom: 15px;
+    font-weight: 400;
+}
+
+.download h5 {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: roboto, sans-serif;
+}
+
+.download button a {
+    transition: .5s;
+}
+
+.download button:hover {
+    background-color: black;
+}
+
+
+/*download section end*/
+
+
+/*contact us start*/
+
+.contact .bg {
+    background-color: #3a3e64;
+}
+
+.gray {
+    color: #d2d2d2;
+}
+
+.social-icon a {
+    border: 3px solid white;
+    padding: 8px 14px;
+    display: inline-block;
+}
+
+.social-icon a.active {
+    padding: 8px 18px;
+    display: inline-block;
+}
+
+.social-icon a i:hover {
+    color: dodgerblue;
+}
+
+
+/*contact us end*/
+
+
+/*footer start*/
+
+.bg-footer {
+    background: #313454;
+}
+
+.footer p {
+    color: grey;
+}
+
+
+/*footer end*/
